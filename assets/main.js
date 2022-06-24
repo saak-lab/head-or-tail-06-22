@@ -28,9 +28,9 @@ function displayRandom(random) {
   console.log(random);
 
   if (random === 1) {
-    displayResult.style.backgroundImage = "url('/assets/images/head-side.png')";
+    displayResult.style.backgroundImage = "url('./assets/images/head-side.png')";
   } else {
-    displayResult.style.backgroundImage = "url('/assets/images/tail-side.png')";
+    displayResult.style.backgroundImage = "url('./assets/images/tail-side.png')";
   }
 }
 
